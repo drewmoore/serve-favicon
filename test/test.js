@@ -10,6 +10,7 @@ var TempIcon = require('./support/tempIcon')
 var FIXTURES_PATH = path.join(__dirname, 'fixtures')
 var ICON_PATH = path.join(FIXTURES_PATH, 'favicon.ico')
 
+// Arbitrary change to test PR
 describe('favicon()', function () {
   describe('arguments', function () {
     describe('path', function () {
